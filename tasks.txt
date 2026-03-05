@@ -1,0 +1,32 @@
+# Claude Auto-Tasks
+# ─────────────────────────────────────────────────────────
+# When your Claude usage is below 70% with 20 min left before reset,
+# the notifier picks the FIRST task here and runs it automatically.
+#
+# Format:
+#   - Lines starting with # are comments (ignored)
+#   - Each task is two parts separated by a blank line:
+#       1. Directory line (the project path)
+#       2. Prompt lines (what Claude should do)
+#   - Blank line between tasks separates them
+#
+# Directory rules:
+#   - Bare name (no slashes) → auto-created inside
+#       ~/Documents/Claude auto-creations/<name>/
+#   - Absolute path that exists → used as-is
+#   - Absolute path that doesn't exist → auto-created there
+#   New project folders automatically get a CLAUDE.md that tells Claude
+#   to work freely inside the folder without asking for approvals.
+#
+# Examples:
+#
+# FlutterSaaS
+# Build an AI B2B SaaS app using Flutter. Start with a clean project
+# structure, a landing page, and a basic authentication flow.
+#
+# D:\my-existing-project
+# Review test coverage and write missing unit tests for core modules.
+#
+# ─────────────────────────────────────────────────────────
+
+Build an AI B2B SaaS app that will make me money. Make no mistakes.
